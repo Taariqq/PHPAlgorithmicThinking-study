@@ -1,1 +1,1 @@
-##Study repo for the book 'PHP Algorithmic Thinking'.
+## Study repo for the book 'PHP Algorithmic Thinking'.
