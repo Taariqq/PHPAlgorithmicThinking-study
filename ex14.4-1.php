@@ -13,7 +13,7 @@ $fullName = trim(fgets(STDIN));
 echo 'space is at position ' . $space = strpos($fullName, " ");
 
 // now try to split the string at that position
-$lastName = substr($fullName, $space + 1); // to eliminate SPACE
+$lastName = substr($fullName, $space + 1); // +1 to eliminate SPACE
 $firstName = substr($fullName, 0, $space); // $space is a NUM
 
 echo "\n last name is $lastName";
