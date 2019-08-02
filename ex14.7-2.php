@@ -8,4 +8,3 @@ $alpha = "abcdefghijklmnopqrstuvwxyz";
 echo $random_word = strtoupper($alpha[rand(0, 25)])
   .$alpha[rand(0, 25)].$alpha[rand(0, 25)].$alpha[rand(0, 25)]
   .$alpha[rand(0, 25)];
-
