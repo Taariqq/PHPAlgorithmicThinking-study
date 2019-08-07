@@ -15,3 +15,12 @@ $b = trim(fgets(STDIN));
 echo 'please enter value for c : ';
 $c = trim(fgets(STDIN));
 
+if ($a < ($b + $c) && $b < ($a + $c) && $c < ($a + $b)) {
+  echo 'the given numbers can be lengths of the three sides of a '
+  . 'triangle'; 
+} else {
+  echo 'the sides don\'t add up to be the three sides of a '
+  . 'triangle';  
+}
+
+echo "the three measurements provided were $a, $b, and $c";
